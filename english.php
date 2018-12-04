@@ -147,7 +147,7 @@
             <br>
             <div class="formContact">
                 <div class="formContactCoor">
-                    <form action="contact.php" method="POST">
+                    <form action="contactEn.php" method="POST">
                         <div>
                         <label for="nom">Last name</label>
                         <input type="text" name="nom">
