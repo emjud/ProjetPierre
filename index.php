@@ -131,6 +131,19 @@
                         <label for="email">Email</label>
                         <input type="email" name="email">
                     </div>
+                    <br>
+                    <div>
+                    <p>Date :</p>
+                        <div>
+                            <label for="du">Du</label>
+                            <input type="text" name="du">
+                        </div>
+                        <div>
+                            <label for="au">Au</label>
+                            <input type="text" name=>
+                        </div>
+                        <p>Durée du chantiers : 15 jours</p>
+                    </div>
                 </div>
                 <div class="calendrier">
                     <button>Envoyer</button>

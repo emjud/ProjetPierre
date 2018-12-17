@@ -127,6 +127,19 @@
                         <label for="email">Email address</label>
                         <input type="email" name="email">
                     </div>
+                    <br>
+                    <div>
+                    <p>Date :</p>
+                        <div>
+                            <label for="du">Du</label>
+                            <input type="text" name="du">
+                        </div>
+                        <div>
+                            <label for="au">Au</label>
+                            <input type="text" name=>
+                        </div>
+                        <p>During, camps : 15 days</p>
+                    </div>
                 </div>
                 <div class="calendrier">
                     <button>Envoyer</button>

@@ -36,7 +36,19 @@ if (isset($_POST['email'])) {
     $mail=" ";
 }
 
-if(empty($nom) || empty($prenom) || empty($mail) || empty($age) || empty($pays) || empty($telephone) || empty($mail)){
+if (isset($_POST['du'])) {
+    $du=$_POST['du'];
+} else {
+    $mail=" ";
+}
+
+if (isset($_POST['au'])) {
+    $au=$_POST['au']
+} else {
+    $mail=" ";
+}
+
+if(empty($nom) || empty($prenom) || empty($mail) || empty($age) || empty($pays) || empty($telephone) || empty($mail) || empty($du) ||empty($au)){
     echo'<font color ="red">Merci de remplir les champs</font>';
 } else{
 
